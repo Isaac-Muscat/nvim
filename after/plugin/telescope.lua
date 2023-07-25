@@ -1,6 +1,7 @@
 require("telescope").setup {
   defaults = {
     -- Your regular Telescope's options.
+    file_ignore_patterns = {"/venv/"}
   },
   extensions = {
     recent_files = {
